@@ -1,8 +1,8 @@
 import React from 'react';
 import { Provider as StyletronProvider } from 'styletron-react';
-import '../styles/globals.css';
 import { BaseProvider, LightTheme } from 'baseui';
 import { debug, styletron } from '../styletron';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
