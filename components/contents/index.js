@@ -1,0 +1,3 @@
+/*
+    Components folder for contents of you different pages in your app.
+*/

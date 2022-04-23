@@ -1,0 +1,3 @@
+/*
+    Components folder for the different atoms in your app.
+*/
