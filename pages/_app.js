@@ -6,10 +6,12 @@ import CustomTheme from '../theme';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page);
+
   return (
     <StyletronProvider value={styletron} debug={debug} debugAfterHydration>
       <BaseProvider theme={CustomTheme}>
-        <Component {...pageProps} />
+        {getLayout(<Component {...pageProps} />)}
       </BaseProvider>
     </StyletronProvider>
   );
