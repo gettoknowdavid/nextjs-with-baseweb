@@ -8,6 +8,7 @@ import {
   ALIGNMENT, BEHAVIOR, Cell, Grid,
 } from 'baseui/layout-grid';
 import { ParagraphLarge } from 'baseui/typography';
+import Layout from '../components/layout';
 
 function Home() {
   return (
@@ -40,5 +41,11 @@ function Home() {
     </>
   );
 }
+
+Home.getLayout = function getLayout(page) {
+  return (
+    <Layout>{page}</Layout>
+  );
+};
 
 export default Home;

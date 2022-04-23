@@ -6,12 +6,9 @@ function Layout({ children }) {
     <>
       {/* Seo Component */}
 
-      <body>
+      {/* Header Component */}
 
-        {/* Header Component */}
-
-        <main>{children}</main>
-      </body>
+      <main>{children}</main>
     </>
   );
 }
