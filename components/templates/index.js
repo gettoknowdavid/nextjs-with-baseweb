@@ -1,0 +1,3 @@
+/*
+    Components folder of your different templates in your app.
+*/

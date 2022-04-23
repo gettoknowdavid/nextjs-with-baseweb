@@ -1,0 +1,3 @@
+/*
+    Components folder of your different organisms in your app.
+*/

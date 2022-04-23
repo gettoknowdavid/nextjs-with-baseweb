@@ -1,0 +1,3 @@
+/*
+    Components folder of your different molecules in your app.
+*/
